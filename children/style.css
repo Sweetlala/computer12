@@ -1,0 +1,234 @@
+body{
+    margin: 5px;
+}
+.top{
+    background-image: url(img/image1.jpg);
+    width:100% ;
+    height: 500px;
+    background-size:cover;
+    color:white;
+    overflow:hidden;
+}
+/*------------ul------------*/
+.top > .over{
+    background-color: rgb(106, 106, 134);
+    list-style-type: none;
+    text-align: center;
+    padding: 5px;
+    font-size:10px;
+    color: bisque;
+    border-radius: 5px;
+    overflow: hidden;
+ 
+    
+
+}
+.over > ul{
+    text-align: center;
+    height: 50px;
+    
+}
+.menu1 {
+display: inline;
+list-style: none;
+margin: 0 auto;
+text-decoration: none;
+color:white;
+float: right;
+margin:05px;
+}
+ .top a:link , .top a:visited{
+     color:white;
+     padding: 10px 20px;
+     display:inline-block;
+ }
+ .top a:hover , .top a:active{
+     background-color:rgb(73, 73, 102);
+     opacity: 1;
+    text-shadow: none;
+
+ }
+/*_--------------------------*/
+.over{
+    background: rgb(106, 106, 134);
+    overflow:hidden;
+    z-index: 1;
+    position: fixed;
+    width: 100%;
+    opacity: 0.5;
+
+}
+
+nav ul{
+    text-align: center;
+    list-style: none;
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
+    color: beige;
+    font-size: 10px;
+}
+a:link ,a:visited{
+    color:white;
+
+
+}
+a:hover , a:active{
+    opacity:1;
+    color:black;
+    background-color: rgb(64, 54, 112);
+    padding: 10px 20px;
+}
+/*---------------adr----------*/
+.adr{
+    text-align: center;
+    color:black;
+    padding: 250px 70px 0;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*----------------------------*/
+.bild{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    padding: 20px;
+}
+/*--------col-4----------*/
+.col-4{
+    float: right;
+    position: relative;
+
+}
+/*------------------*/
+.imag{
+    height: 200px;
+    width: 200px;
+    padding: 10px;
+    margin-top: 50px;
+    position: relative;
+}
+.box1{
+    text-align: center;
+    background:rgb(94, 94, 129);
+    height: fit-content;
+    padding-bottom: 25px;
+    padding: 30px;
+}
+/*------class in-------*/
+.in{
+    height: 50px;
+    width: 350px;
+}
+/*------class-inp----------*/
+.inp{
+    height: 150px;
+    width: 350px;
+}
+/*-----------class hh1-------------*/
+.hh1{
+    color: rgb(89, 89, 105);
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+/*--------scika--------*/
+.scika{
+    width: 350px;
+    height: 50px;
+    font-size: 20px;
+}
+/*-------footer--------------*/
+.row{
+    max-width: 1000px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0 auto;
+}
+
+
+    /*------------listfoot-----------------*/
+    .foot{
+        
+      background-color:   rgb(94, 94, 129);
+        
+    }
+    /*-------------*/
+.icon{
+    width: 40px;
+    height: 40px;
+    float: left;
+}   
+/*-------fain-----------*/
+.fain{
+    width: 100%;
+    height: 250px;
+    padding: 30px; 
+}
+/*-------navbut----------*/
+.navbut ul{
+    list-style-type: none;
+    text-align: center;
+    padding: 5px;
+    font-size:20px;
+    color: bisque;
+
+    overflow: hidden;
+    height: 150px;
+    width: 100%;
+
+}
+    ul{
+        display: block;
+        text-align: center;
+        margin: 0 auto;
+
+    }
+    li{
+        display: inline-block;
+        padding: 20px;
+        text-decoration: none;
+
+    }
+    .navbut a:link , .navbut a:visited{
+        color:white;
+        padding: 10px 20px;
+        display:inline-block;
+    }
+    .navbut a:hover , .navbut a:active{
+        background-color: rgb(73, 73, 102);
+        opacity: 1;
+       text-shadow: none;
+    }
+/*--------------------line--------------------------*/
+
+    
+
+/*-------copy---------*/
+p{
+    display: block;
+    text-align: center;
+    color:black;
+}
+/*-----------liststyle------------*/
+.me{
+    padding: 5px;
+    list-style-type:none;
+    display: inline;
+} 
+.lo1{ 
+    width: 25px;
+    height: 25px;
+    border-radius:70%; 
+    
+}
+.an a:hover:not(.me) {
+    background-color:none ;
+    display: none;
+
+}
+/*----------copy---------------*/
+.copy{
+    text-align: center;
+}
